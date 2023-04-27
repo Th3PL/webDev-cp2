@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.cabecalho {
+margin-top: 13px;
+}
+
+.cabecalho_navegacao {
+    font-size: 18px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
