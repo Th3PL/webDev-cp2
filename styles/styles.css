@@ -40,6 +40,13 @@ margin-top: 13px;
     font-family: 'Kanit', sans-serif;
 }
 
+.subtitulo{
+    padding: 10px;
+    color: var(--cor-secundaria);
+    margin-top: 30px;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+}
 
 .container-publicacao{
     margin-top: 10px;
