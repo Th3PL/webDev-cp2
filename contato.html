@@ -19,13 +19,13 @@
     <h1 class="titulo">Entre em contato</h1>
 
     <form class="botoes-cadastro">
-        <p>Nome: <input type="text"></p>
-        <p>Telefone: <input type="text"></p>
-        <p>E-mail: <input type="email"></p>
-        <p> <input type="submit"></p>
+        <p>Nome: <input type="text" id="usuario" required></p>
+        <p>Telefone: <input type="text" id="tel" required></p>
+        <p>E-mail: <input type="email" id="email" required></p>
+        <input type="submit" value="Enviar" id="login" onclick="validar()"/>
     </form>
 
-
+    <script src="script-ctt.js"></script>
     <script src="scipt.js"></script>
 </body>
 </html>
