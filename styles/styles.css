@@ -2,6 +2,8 @@
     --cor-principal: #FAECD6;
     --cor-secundaria: #820000;
     --cor-terciaria: #4E6C50;
+    --preto: #000000;
+    --branco: #ffffff;
 }
 
 *{
@@ -44,7 +46,6 @@ margin-top: 13px;
     padding: 10px;
     color: var(--cor-secundaria);
     margin-top: 30px;
-    text-align: left;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -84,3 +85,32 @@ margin-top: 13px;
     color: var(--cor-principal);
     border-radius: 8px;
 }
+
+.padrao {
+   background-color: var(--cor-principal); 
+   transition: all 0.25s ease-in-out;
+}
+
+.dark {
+    background-color: var(--preto); 
+    transition: all 0.25s ease-in-out;
+    color: var(--branco);
+ }
+
+ .green {
+    background-color: var(--cor-terciaria); 
+    transition: all 0.25s ease-in-out;
+ }
+
+ button {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 10px;
+ }
+
+ .change-color{
+    text-align: center;
+ }
