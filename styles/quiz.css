@@ -1,3 +1,11 @@
+:root{
+    --cor-principal: #FAECD6;
+    --cor-secundaria: #820000;
+    --cor-terciaria: #4E6C50;
+    --preto: #000000;
+    --branco: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +20,11 @@
     justify-content: center;
     flex-direction: column;
     gap: 5px;
-    background: linear-gradient(90deg, rgba(91,30,159,1) 0%, rgba(77,39,182,1) 100%);
+    background-color:var(--cor-principal) ;
   }
   
   body h2 {
-    color: white;
+    color: var(--cor-secundaria);
   }
   
   main {
@@ -55,8 +63,13 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #008CCC;
+    background-color: var(--cor-secundaria);
     color: white;
+  }
+
+  button:hover{
+    background-color: var(--cor-principal);
+    color: var(--cor-terciaria);
   }
   
   .finish {

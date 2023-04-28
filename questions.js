@@ -60,7 +60,21 @@ export default [
         { option: "Rótulo", correct: true },
       ],
     },
-    
+    {
+      question: "Um bom vinho é feito de uma unica uva:",
+      answers: [
+        { option: "Correto", correct: false },
+        { option: "Erradíssimo", correct: true },
+      ],
+    },
+    {
+      question: "O vinho do porto é da região de:",
+      answers: [
+        { option: "Porto", correct: false },
+        { option: "Dão", correct: false },
+        { option: "Douro", correct: true },
+      ],
+    },
 
 
   ];
