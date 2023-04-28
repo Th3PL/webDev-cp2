@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
     <title>Quiz</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <nav>
-            <a href="index.html" class="cabecalho_navegacao">Home</a>
-            <a href="sobre.html" class="cabecalho_navegacao">Sobe-nós</a>
-            <a href="contato.html" class="cabecalho_navegacao">Contato</a>
-            <a href="quiz.html" class="cabecalho_navegacao">Quiz</a>
-        </nav>
-    </header>
+  
+    <h2>QuizWine</h2>
+    <main>
+        <div class="content">
+            <span class="spnQtd"></span>
+            <span class="question"></span>
+            <div class="answers"></div>
+        </div>
+        <div class="finish">
+            <span></span>
+            <button>Reiniciar</button>
+        </div>
+    </main>
+
+
     
-    <h1 class="titulo">Quiz</h1>
-
-
-
     <script src="scipt.js"></script>
-    <script src="scipt-quiz.js"></script>
+    <script src="scipt-quiz.js" type="module"></script>
 </body>
 </html>
