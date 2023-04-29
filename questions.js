@@ -1,6 +1,6 @@
 export default [
     {
-      question: "Qual dos nome abaixo NÃO é um tipo de vinho?",
+      question: "Qual dos nomes abaixo NÃO é um tipo de vinho?",
       answers: [
         { option: "Molhado", correct: true },
         { option: "Branco", correct: false },
@@ -8,7 +8,7 @@ export default [
       ],
     },
     {
-      question: "Vinho branco é feio APENAS por uvas brancas?",
+      question: "Vinho branco é feito APENAS por uvas brancas?",
       answers: [
         { option: "Claro", correct: false },
         { option: "Não", correct: true },
